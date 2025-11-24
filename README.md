@@ -1,15 +1,16 @@
-# Calcolatore Turni Per Tornei di Scacchi
-Un calcolatore per la creazione di turni nei tornei svizzeri di scacchi.
+# Chess Swiss Tournament 
+This webpage calculates and displays the pairings following the swiss tournaments logic.
 
-## La versione attuale contiene:
-- Possibilità di aggiungere una quantità indefinita di giocatori.
-- Una logica di base che calcola i turni, seguendo lo standard del sistema svizzero.
-- La possibilità di dare mezzi bye e ritirare dei partecipanti.
-- Possibilità di vedere le statistiche e partite di ciascun giocatore.
+## The current version contains:
+- Possibility of adding an undefined number of players.
+- Possibility of inputting results of games.
+- Base logic that calculates pairings, following the standard of the swiss system.
+- Possibility of giving half-byes or retire participants.
+- Statistics for each player by clicking on their name.
 
-### Bugs e problemi:
-- Quando una o più partite finiscono in patta, a volte capita che alcuni giocatori siano completamente esclusi dal turno successivo.
-- L'alternanza dei colori non è sufficientemente accurata.
-- Se due giocatori hanno lo stesso punteggio del torneo, di spareggio ed Elo, saranno ordinati per ordine di immissione.
+### Bugs and problems:
+- When game(s) end in a draw, seldomly those players don't get paired the following round.
+- Color swapping is inaccurate.
+- If two players have the same Elo rating, tournament points and tiebreaker points, they will be ordered by when they were signed up.
 
-Preview in github Pages: https://jamesc-07.github.io/Calcolatore-Turni-Scacchi/
+
